@@ -1,0 +1,12 @@
+*{background-color: black;
+color: white ;}
+h1 {font-size: 20px;}
+p {font-size: 12px;
+color: lightgray;}
+ul {list-style: square;}
+ol {list-style: upper-alpha;}
+.dotted-border {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted white;
+}

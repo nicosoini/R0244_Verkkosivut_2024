@@ -1,0 +1,8 @@
+
+* {font-family: fantasy;}
+header {background-image: url(../kuvat/huligaanit.avif);
+padding: 30px;
+text-align: center;
+font-size: 35px;
+color: white;}
+aside {align-content:stretch}
