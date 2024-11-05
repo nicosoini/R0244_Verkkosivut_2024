@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px;
+  display: column;
+  height: fit-content;
+}
+
+header {
+  background-color: #1a003c;
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+header h1 {
+  font-size: 30px;
+}
+
+.vertical {
+  text-align: center;
+  padding: 20px;
+  background-color: #0f0024;
+}
+.vertical li {
+  margin-right: 20px;
+}
+
+.vertical ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.vertical a {
+  color: white;
+  text-decoration: none;
+}
+
+.article3 {
+  padding: 20px;
+  background-color: #f1f1f1;
+  height: 400px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #1a003c;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+#kuva3 {
+  float: right;
+  border: groove 10px #1a003c;
+}
+.horizontal {
+  float: left;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  width: 25%;
+  background-color: #2f016b;
+  height: 600px;
+  flex-direction: column;
+}
+.horizontal ul {
+  list-style-type: none;
+}
+.horizontal a {
+  display: flex;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.vertical a:hover {
+  text-shadow: 2px 2px rgb(142, 46, 46);
+  color: red;
+}
+.horizontal a:hover {
+  text-shadow: 2px 2px rgb(142, 46, 46);
+  color: red;
+}
+.article {
+  float: left;
+  width: 75%;
+  padding: 15px;
+  height: 600px;
+  background-color: #f1f1f1;
+}
+.article2 {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.article2 a {
+  text-decoration: none;
+  color: lightgray;
+}
+.article2 a:hover {
+  color: black;
+}
+#kuva1 {
+  border: groove 10px #1a003c;
+}
+#kuva2 {
+  border: groove 10px #1a003c;
+}
+#otsikko {
+  text-align: center;
+  text-decoration: underline;
+  padding: 5px;
+  font-size: 20px;
+}
+.progress-container {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
