@@ -149,3 +149,9 @@ footer {
   padding-left: 15px;
   padding-right: 30px;
 }
+#section1{
+  width: 100%;
+  height: 600px;
+  padding: 0%;
+  text-align: center;
+}
