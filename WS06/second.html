@@ -1,83 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Website: Nico</title>
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css">
   </head>
 
   <body>
     <header>
       <h1>Websoini</h1>
     </header>
-    <section>
-      <nav class="vertical">
-        <ul>
-          <li><a href="third.html">Kotisivu</a></li>
-          <li><a href="index.html">Kesäloma</a></li>
-          <li><a href="second.html">Lastensarjat</a></li>
-        </ul>
-      </nav>
-      <article class="article2">
-        <h2 id="otsikko">Lempi lastensarjat</h2>
-        <figure>
-          <img
-            src="kuva/Postman-Pat.jpg"
-            alt="Postimies-pate"
-            id="kuva1"
-            width="200"
-            height="200"
-          />
-          <figcaption><strong>Postimies-pate</strong></figcaption>
-          <p>
-            Postimies Pate on brittiläinen BBC:n animoitu lastensarja, jossa
-            ystävällinen postimies Pate seikkailee kuvitteellisessa Yorkshiren
-            kylässä Greendalessa, jonka esikuvana on Cumbriassa sijaitseva
-            Longsleddalen laakso. Alkuperäiset jaksot kuvattiin vuonna 1981.
-          </p>
-          <p>
-            Lähde:
-            <a
-              href="https://fi.wikipedia.org/wiki/Postimies_Pate"
-              target="_blank"
-              >Wikipedia</a
-            >
-          </p>
-        </figure>
-
-        <figure>
-          <img
-            src="kuva/Puuha-pete.jpg"
-            alt="Puuha-pete"
-            id="kuva2"
-            width="200"
-            height="200"
-          />
-          <figcaption><strong>Puuha-pete</strong></figcaption>
-          <p>
-            Puuha-Pete (engl. Bob the Builder) on englantilainen animoitu
-            lastensarja, jonka ensimmäinen osa esitettiin Britanniassa vuonna
-            1998 ja Suomessa vuonna 2000, ja sen tuotanto jatkuu edelleen.
-            Puuha-Pete ja hänen kaverinsa joutuvat erilaisiin seikkailuihin
-            samalla kun he suorittavat rakennus- ja korjaustöitä naapureilleen
-            ja tuttavilleen. Sarja korostaa ryhmätyön ja sosiaalisten taitojen
-            merkitystä. Puuha-Pete on nykyään tunnettu ja suosittu ympäri
-            maailmaa.
-          </p>
-          <p>
-            Lähde:
-            <a href="https://fi.wikipedia.org/wiki/Puuha-Pete" target="_blank"
-              >Wikipedia</a
-            >
-          </p>
-        </figure>
-
-        <div class="progress-container">
-          <label for="course-progress">Kurssin eteneminen</label>
-          <progress id="course-progress" value="15" max="100"></progress>
+    <nav class="vertical">
+      <div class="wrapper">
+        <div>
+          <a href="third.html">Kotisivu</a>
         </div>
-      </article>
-    </section>
+        <div>
+          <a href="index.html">Kesäloma</a>
+        </div>
+        <div>
+          <a href="second.html">Lastensarjat</a>
+        </div>
+      </div>
+    </nav>
+    <article class="article2">
+      <h2 id="otsikko">Lempi lastensarjat</h2>
+      <figure>
+        <img
+          src="kuva/Postman-Pat.jpg"
+          alt="kuvalinkki rikki"
+          id="kuva1"
+          width="200"
+          height="200"
+        />
+        <figcaption><strong>Postimies-pate</strong></figcaption>
+      </figure>
+      <p id="ptext">
+        Postimies Pate on brittiläinen BBC:n animoitu lastensarja, jossa
+        ystävällinen postimies Pate seikkailee kuvitteellisessa Yorkshiren
+        kylässä Greendalessa, jonka esikuvana on Cumbriassa sijaitseva
+        Longsleddalen laakso. Alkuperäiset jaksot kuvattiin vuonna 1981. Lähde:
+        <a href="https://fi.wikipedia.org/wiki/Postimies_Pate" target="_blank"
+          >Wikipedia</a
+        >
+      </p>
+
+      <figure>
+        <img
+          src="kuva/Puuha-pete.jpg"
+          alt="kuvalinkki rikki"
+          id="kuva2"
+          width="200"
+          height="200"
+        >
+        <figcaption><strong>Puuha-pete</strong></figcaption>
+      </figure>
+      <p id="ptext2">
+        Puuha-Pete (engl. Bob the Builder) on englantilainen animoitu
+        lastensarja, jonka ensimmäinen osa esitettiin Britanniassa vuonna 1998
+        ja Suomessa vuonna 2000, ja sen tuotanto jatkuu edelleen. Puuha-Pete ja
+        hänen kaverinsa joutuvat erilaisiin seikkailuihin samalla kun he
+        suorittavat rakennus- ja korjaustöitä naapureilleen ja tuttavilleen.
+        Sarja korostaa ryhmätyön ja sosiaalisten taitojen merkitystä. Puuha-Pete
+        on nykyään tunnettu ja suosittu ympäri maailmaa. Lähde:
+        <a href="https://fi.wikipedia.org/wiki/Puuha-Pete" target="_blank"
+          >Wikipedia</a
+        >
+      </p>
+
+      <div class="progress-container">
+        <label for="course-progress">Kurssin eteneminen</label>
+        <progress id="course-progress" value="15" max="100"></progress>
+      </div>
+    </article>
 
     <footer><p>Copyright © Nico Soini</p></footer>
   </body>
