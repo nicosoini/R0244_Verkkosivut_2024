@@ -1,0 +1,126 @@
+body{background-color: rgb(209, 209, 209);
+}
+.mb-3 {color: white}
+p{color: white;}
+footer{text-align: center;}
+#kuva2 {      width: 250px;
+    height: 250px;}
+#kuva1 {      width: 250px;
+        height: 250px;}
+.oikea {color: white;
+}
+.oikea li {list-style-type: none;}
+header{text-align: center;
+justify-content: center;
+color: lightgray;
+padding: 15px;}
+footer{margin-top: 30px;}
+#otsikko1{padding: 15px;
+padding-top: 30px;}
+#terve {padding: 10px}
+.contact-card {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding-bottom: 400px;
+    background-color: #ffffff;
+  }
+  .contact-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .contact-card h5 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .contact-info {
+    text-align: left;
+  }
+  .contact-info p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: black;
+  }
+  .contact-info span {
+    font-weight: bold;
+  }
+  .carousel-item img{
+    width: 600px;
+    height: 800px;
+    object-fit: cover;
+   }
+  /* Dark background and white text for the caption */
+  .caption-bg {
+    background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent dark background */
+    color: white; /* White text */
+    padding: 15px; /* Add padding around the text */
+    display: inline-block; /* Ensure the background fits the content */
+    border-radius: 5px; /* Optional: rounded corners for better appearance */
+  }
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark transparent background */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    border-radius: 10px; /* Optional: Rounded corners */
+  }
+  .carousel-caption h5 {color: white;}
+
+  .carousel-caption a {
+    color: #ffffff; /* Ensure links are also white */
+    text-decoration: underline; /* Optional: Add underline for better visibility */
+  }
+
+  .carousel-caption a:hover {
+    color: #404040; /* Optional: Add hover effect to links */
+  }
+
+  .carousel {
+    margin-bottom: 0;
+  }
+  footer {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+#valikko li{list-style: none;
+padding: 2px;}
+#valikko a {text-decoration: none;
+color: gray;
+text-align: left;}
+#valikko a:hover{text-decoration: underline;}
+#carousel1 img{
+  height: 300px;
+}
+#carousel2 img{
+  height: 300px;
+}
+#carousel3 img{
+  height: 300px;
+}
+.card-text {color: black;}
+#horizontal {position: sticky;}
+#airmax {
+  color: #000000;
+  text-shadow: 2px 2px 5px #7e7e7e;}
+#lowgrey {color: #000000;
+  text-shadow: 2px 2px 5px #7e7e7e;}
+#wutang {color: #000000;
+  text-shadow: 2px 2px 5px #7e7e7e;}
+#supreme {color: #000000;
+  text-shadow: 2px 2px 5px #7e7e7e;}
+#yeezy {color: #000000;
+  text-shadow: 2px 2px 5px #7e7e7e;}
+#jordan1 {color: #000000;
+  text-shadow: 2px 2px 5px #7e7e7e;}
+h2 {color: #000000;
+  text-shadow: 2px 2px 5px #7e7e7e;}
+#click {color: #000000;
+text-align: center;}

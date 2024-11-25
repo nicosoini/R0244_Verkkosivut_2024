@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Exercise</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML Forms Exercise</h1>
+        <p>Use this template to create forms below.</p>
+    </header>
+    <div class="container">
+        <h2>Task</h2>
+        <p>Create a form for user registration. The form should include:</p>
+        <ul>
+            <li>Input fields: First Name, Last Name, Email</li>
+            <li>A dropdown for selecting the country</li>
+            <li>A textarea for comments</li>
+            <li>A submit button</li>
+        </ul>
+        <h2>Sinun ikioma Form</h2>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="lname">Email:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="countries">Choose a country:</label>
+            <select name="countries" id="countries">
+              <option value="Finland">Finland</option>
+              <option value="Sweden">Sweden</option>
+              <option value="Norway">Norway</option>
+              <option value="Estonia">Estonia</option>
+            </select>
+          <br>
+          <textarea rows="8" cols="60" name="comment" form="usrform"></textarea> 
+          </br>
+        <input type="submit" value="Submit">
+    </form>
+        <div id="nav">
+            <a href="./index.html">Mene Tauluun</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
