@@ -1,4 +1,4 @@
-body{background-color: rgb(209, 209, 209);
+body{background-color: rgb(227, 227, 227);
 }
 .mb-3 {color: white}
 p{color: white;}
@@ -26,8 +26,8 @@ padding-top: 30px;}
     border: 1px solid #000000;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding-bottom: 400px;
-    background-color: #ffffff;
+    padding-bottom: 200px;
+    background-color: rgba(225, 225, 225, 0.75);
   }
   .contact-card img {
     width: 150px;
@@ -35,6 +35,11 @@ padding-top: 30px;}
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 20px;
+  }
+  .contact-section {
+    background-color: rgba(138, 138, 138, 0.75);
+    padding: 40px 20px;
+    border-radius: 10px;
   }
   .contact-card h5 {
     margin-bottom: 15px;
@@ -109,18 +114,36 @@ text-align: left;}
 #horizontal {position: sticky;}
 #airmax {
   color: #000000;
-  text-shadow: 2px 2px 5px #7e7e7e;}
+  text-shadow: 1px 1px 4px #7e7e7e;;}
 #lowgrey {color: #000000;
-  text-shadow: 2px 2px 5px #7e7e7e;}
+  text-shadow: 1px 1px 4px #7e7e7e;}
 #wutang {color: #000000;
-  text-shadow: 2px 2px 5px #7e7e7e;}
+  text-shadow: 1px 1px 4px #7e7e7e;}
 #supreme {color: #000000;
-  text-shadow: 2px 2px 5px #7e7e7e;}
+  text-shadow: 1px 1px 4px #7e7e7e;}
 #yeezy {color: #000000;
-  text-shadow: 2px 2px 5px #7e7e7e;}
+  text-shadow: 1px 1px 4px #7e7e7e;}
 #jordan1 {color: #000000;
-  text-shadow: 2px 2px 5px #7e7e7e;}
+  text-shadow: 1px 1px 4px #7e7e7e;}
 h2 {color: #000000;
-  text-shadow: 2px 2px 5px #7e7e7e;}
+font-family: 'Times New Roman', Times, serif;
+text-shadow: 1px 1px 3px #7e7e7e;}
 #click {color: #000000;
 text-align: center;}
+.card-body a {background-color: #7e7e7e;
+border: 2px #000000;}
+.card-body a:hover {background-color: #404040;}
+    /* Kuvaa varten lisätään hover-efekti */
+    .img-fluid {
+      transition: transform 0.3s ease; /* Animaatio siirtymään */
+    }
+
+    /* Kun hiiri on kuvan päällä */
+    .img-fluid:hover {
+      transform: scale(1.1); /* Suurennus 10 % */
+    }
+    .teksti {color: white;}
+    .copyright {text-align: center;
+    padding: 20px;
+    background-color: rgb(239, 239, 239);}
+    .btn {background-color: #000000;}
