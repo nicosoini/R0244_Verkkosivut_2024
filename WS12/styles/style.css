@@ -133,14 +133,11 @@ text-align: center;}
 .card-body a {background-color: #7e7e7e;
 border: 2px #000000;}
 .card-body a:hover {background-color: #404040;}
-    /* Kuvaa varten lisätään hover-efekti */
     .img-fluid {
-      transition: transform 0.3s ease; /* Animaatio siirtymään */
+      transition: transform 0.3s ease;
     }
-
-    /* Kun hiiri on kuvan päällä */
     .img-fluid:hover {
-      transform: scale(1.1); /* Suurennus 10 % */
+      transform: scale(1.1);
     }
     .teksti {color: white;}
     .copyright {text-align: center;
